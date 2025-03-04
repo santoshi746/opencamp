@@ -8,10 +8,20 @@
     left: 0;
     z-index: -1;
 }
-.navbar-scrolled{
-    background-color: white;
-    box-shadow: 0 3px 10px rgba(255,255,255);
+nav .navbar-nav li a{
+    color: white !important;
 }
+.navbar-brand{
+    color: white !important;
+}
+.navbar-text a{
+    color: white !important;
+}
+
+.navbar-scrolled{
+    background-color: black;
+}
+
 .main{
     color: white;
     position: absolute;
@@ -47,6 +57,10 @@
     position: relative;
     top: -120px;
     width: 1000px !important;
+    border: 4px solid green;
+    border-top-left-radius: 90px ;
+    border-bottom-right-radius: 90px;
+    padding: 10px;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 .container-1 .card-1{
@@ -72,7 +86,16 @@
 }
 .container-3 .card{
     width: 400px;
-    height: 200px;
+    height: 250px;
+}
+.container-4{
+    margin-top: 100px;
+}
+.container-4 h1{
+    margin: 50px 0;
+}
+.container-4 .carousel img{
+    height: 400px !important;
 }
 .icon-1{
     font-size: 35px;
@@ -86,11 +109,15 @@
 .content-3{
     margin-top: 45px;
 }
-.content-3 i{
-    font-size: 25px;
-    border: 2px solid green;
-    padding: 5px;
-    margin: 3px;
+.content-3 span{
+    width: 1.8em;
+    height: 1.8em;
+}
+footer hr{
+    width: 60px; background-color: white; height: 4px;
+}
+.footer-social a {
+    text-decoration: none !important;
 }
 @media screen and (max-width: 420px) {
     @keyframes anime-heading{
@@ -126,11 +153,23 @@
     .navbar-brand{
         color: black !important ;
     }
-    .nav-link{
+    nav .navbar-nav li a{
         color: black !important;
     }
-    .navbar-toggler{
-        color: black;
+    .container-1{
+        border: none !important;
     }
-
+    .content-2{
+        margin: 60px;
+        font-size: 10px !important;
+    }
+    .container-3 h1{
+        margin-bottom: 5rem !important;
+    }
+    .container-3 .card{
+        margin: 40px 0;
+    }
+    .container-3 .row{
+        margin: 1rem 0 !important;
+    }
 }

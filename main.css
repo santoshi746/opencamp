@@ -8,7 +8,7 @@
     left: 0;
     z-index: -1;
 }
-nav .navbar-nav li a{
+nav .navbar-nav li .nav-link{
     color: white !important;
 }
 .navbar-brand{
@@ -82,6 +82,9 @@ nav .navbar-nav li a{
 .card-2 p{
     color: white !important;
 }
+.dropdown-item a{
+    color: black !important;
+}
 .container-2{
     background-image: url("https://cdn.pixabay.com/photo/2025/02/22/08/35/mountain-9423779_1280.jpg");
     height: 250px;
@@ -126,6 +129,14 @@ nav .navbar-nav li a{
     width: 1.8em;
     height: 1.8em;
 }
+.container-4 h1{
+    border-bottom: 2px solid green;
+    padding-bottom: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: invert(100%);
+}
 footer hr{
     width: 60px; background-color: white; height: 4px;
 }
@@ -166,7 +177,7 @@ footer hr{
     .navbar-brand{
         color: black !important ;
     }
-    nav .navbar-nav li a{
+    nav .navbar-nav li .nav-link{
         color: black !important;
     }
     .container-1{
@@ -185,4 +196,7 @@ footer hr{
     .container-3 .row{
         margin: 1rem 0 !important;
     }
+}
+@media  screen and (max-width:348px){
+    
 }

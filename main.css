@@ -132,7 +132,7 @@ footer hr{
 .footer-social a {
     text-decoration: none !important;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     @keyframes anime-heading{
         0%{
             background-color: black;
